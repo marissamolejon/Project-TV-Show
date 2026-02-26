@@ -28,6 +28,8 @@ function displayEpisodes(episodeList) {
 
     episodesContainer.appendChild(card);
   });
+   document.getElementById("numberOfEpisodes").textContent =
+    `Displaying ${episodeList.length}/${allEpisodes.length} episodes`;
 }
 function searchEpisodes(allEpisodes) {
   searchBox.addEventListener("input", () => {
