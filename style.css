@@ -10,8 +10,8 @@ body {
 
 #dropdown,
 #searchBar {
-  padding: 8px 10px;      /* more inner space */
-  font-size: 14px;         /* bigger text */
+  padding: 8px 10px;     
+  font-size: 14px;      
   border-radius: 6px;
   border: 1px solid #ccc;
   margin-right: 10px;
@@ -83,6 +83,6 @@ p {
 
 #numberOfEpisodes {
   font-size: 14px;
-  color: #a3a3a3;
+  color: #424141;
 
 }
